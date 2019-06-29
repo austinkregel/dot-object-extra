@@ -1,19 +1,19 @@
-# Dot-Object
+# Dot-Object-extra
 
-Dot-Object makes it possible to transform javascript objects using dot notation.
+Dot-Object-extra makes it possible to transform javascript objects using dot notation.
 
 ### Installation
 
 Install from npm:
 
 ```
-  npm install dot-object --save
+  npm install dot-object-extra --save
 ```
 
 Install from bower:
 
 ```
-  bower install dot-object --save
+  bower install dot-object-extra --save
 ```
 
 ### Download
@@ -23,7 +23,7 @@ Install from bower:
 #### Pick a property within an object or an array
 
 ```javascript
-var dot = require("dot-object");
+var dot = require("dot-object-extra");
 
 var obj = dot.pick("hobbies.type", {
     id: null,
