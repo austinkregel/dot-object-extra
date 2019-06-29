@@ -1,0 +1,21 @@
+{
+    "name": "dot-object-extra",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "mocha **/**-test.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^6.1.4"
+    },
+    "dependencies": {
+        "dot-object": "^1.7.1"
+    }
+}
